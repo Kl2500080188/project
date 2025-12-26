@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KURU - Progress</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Progress</h1>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="active.html">Activities</a>
+            <a href="progress.html" class="active">Progress</a>
+            <a href="login.html">Login</a>
+        </nav>
+
+        <!-- Logged-in user info -->
+        <p id="userInfo"></p>
+        <button onclick="logout()">Logout</button>
+    </header>
+
+    <section class="main">
+        <h2>Your Extracurricular Progress</h2>
+
+        <section class="main">
+    <h2>Your Extracurricular Progress</h2>
+
+    <div class="progress-box">
+        <p><strong>Sports:</strong> <span id="sportsPercent">0%</span></p>
+        <progress id="sportsBar" value="0" max="100"></progress>
+
+        <p><strong>Arts:</strong> <span id="artsPercent">0%</span></p>
+        <progress id="artsBar" value="0" max="100"></progress>
+
+        <p><strong>Volunteering:</strong> <span id="volPercent">0%</span></p>
+        <progress id="volBar" value="0" max="100"></progress>
+
+        <p><strong>Academic:</strong> <span id="acadPercent">0%</span></p>
+        <progress id="acadBar" value="0" max="100"></progress>
+
+        <p><strong>Other:</strong> <span id="otherPercent">0%</span></p>
+        <progress id="otherBar" value="0" max="100"></progress>
+    </div>
+</section>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 KURU. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

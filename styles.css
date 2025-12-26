@@ -1,0 +1,312 @@
+body { 
+    margin: 0;
+    background-color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: rgb(3, 3, 96);
+    color: white;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    letter-spacing: 1px;
+}
+
+nav a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav a:hover, nav a.active {
+    text-decoration: underline;
+}
+
+.main {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.main h2 {
+    font-size: 28px;
+    color: rgb(3, 3, 96);
+}
+
+.main p {
+    font-size: 18px;
+    margin: 10px 0 30px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: rgb(3, 3, 96);
+    color: whitesmoke;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 16px;
+
+}
+
+.btn:hover {
+    background-color: rgb(25, 25, 120);
+}
+
+footer {
+    background-color: rgb(3, 3, 96);
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 14px;
+}
+.activity-form {
+    max-width: 600px;
+    margin: 0 auto 50px;
+    text-align: left;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activity-form h3 {
+    color: rgb(3, 3, 96);
+    margin-bottom: 15px;
+}
+
+.activity-form input,
+.activity-form select,
+.activity-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.activity-list {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.activity-list h3 {
+    color: rgb(3, 3, 96);
+    margin-bottom: 15px;
+}
+
+.activity-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.activity-list li {
+    background-color: whitesmoke;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+}
+button{
+    display: inline-block;
+    background-color: rgb(227, 227, 233);
+    color: rgb(3, 3, 96);
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 15px 25px;
+    font-size: 16px;
+}
+button:hover{
+    background-color: rgb(25, 25, 120);
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Body */
+body {
+    background-color: #f4f6fb;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: rgb(3, 3, 96);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-size: 22px;
+}
+
+/* Navigation */
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+    padding-bottom: 3px;
+}
+
+nav a:hover,
+nav a.active {
+    border-bottom: 2px solid white;
+}
+
+/* User info & logout */
+#userInfo {
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+header button {
+    background-color: white;
+    color: rgb(3, 3, 96);
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+header button:hover {
+    background-color: #e2e2ff;
+}
+
+/* Main section */
+.main {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.main h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+    color: rgb(3, 3, 96);
+}
+
+.main p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+/* Buttons */
+.btn {
+    display: inline-block;
+    padding: 12px 25px;
+    background-color: rgb(3, 3, 96);
+    color: white;
+    text-decoration: none;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: rgb(25, 25, 120);
+}
+
+/* Progress Page */
+.progress-box {
+    max-width: 500px;
+    margin: 30px auto;
+    text-align: left;
+    background-color: white;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.progress-box p {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Progress Bar */
+progress {
+    width: 100%;
+    height: 20px;
+    appearance: none;
+}
+
+progress::-webkit-progress-bar {
+    background-color: #e0e0e0;
+    border-radius: 10px;
+}
+
+progress::-webkit-progress-value {
+    background-color: rgb(3, 3, 96);
+    border-radius: 10px;
+}
+
+progress::-moz-progress-bar {
+    background-color: rgb(3, 3, 96);
+    border-radius: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #eee;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 50px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #userInfo {
+        margin-left: 0;
+    }
+}
+.remove-btn {
+    margin-left: 10px;
+    background-color: crimson;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 12px;
+}
+
+.remove-btn:hover {
+    background-color: darkred;
+}
